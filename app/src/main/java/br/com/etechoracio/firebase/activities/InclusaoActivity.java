@@ -51,6 +51,8 @@ public class InclusaoActivity extends AppCompatActivity {
         personagem.setNome(editNome.getText().toString());
         personagem.setSexo(SexoEnum.getBy(((RadioButton) findViewById(groupSexo.getCheckedRadioButtonId())).getText().toString()));
 
+        }
+
     }
 
 
